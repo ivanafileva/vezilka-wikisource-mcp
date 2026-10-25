@@ -1,0 +1,16 @@
+# Each app has its own .gitignore; these cover the repository root.
+
+# Secrets
+.env
+.env.local
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
