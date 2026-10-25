@@ -1,0 +1,10 @@
+.layout-box, .outlet-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full-bleed elements use 100vw, which includes the scrollbar; clip that overflow. */
+.layout-box {
+    overflow-x: clip;
+}
